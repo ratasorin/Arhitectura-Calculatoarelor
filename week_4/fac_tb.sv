@@ -8,7 +8,8 @@ module fac_tb ();
     initial begin
         for (integer a = 0; a < 8; a = a + 1) begin 
             {x, y, carry_in} = a;
-            $display("x = %b, y = %b, carry_in = %b\n", x, y, carry_in);
+            #10
+            $display("x = %b, y = %b, carry_in = %b, sum = %b, carry_out = %b\n", x, y, carry_in, out, carry_out);
         end
     end
 endmodule

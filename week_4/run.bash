@@ -4,10 +4,6 @@ set sourcefiles {fac_tb.sv}
 # set name of the top module
 set topmodule fac_tb
 
-###################################################
-#####DO NOT MODIFY THE SCRIPT BELLOW THIS LINE#####
-###################################################
-
 # quit current simulation if any
 quit -sim
 

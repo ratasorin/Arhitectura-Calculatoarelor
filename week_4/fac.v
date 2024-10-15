@@ -3,7 +3,7 @@ module fac (
     output out, carry_out
 );
 
-assign out = x & y;
-assign carry_out = x ^ y;
+assign out = x ^ y ^ carry_in;
+assign carry_out = (x & y) | (y & carry_in) | (x & carry_in);
 
 endmodule;
