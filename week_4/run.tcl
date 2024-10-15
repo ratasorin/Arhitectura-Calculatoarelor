@@ -1,8 +1,7 @@
-# add all Verilog source files, separated by spaces
-set sourcefiles {fac_tb.sv}
-
-# set name of the top module
-set topmodule fac_tb
+if { ![info exists sourcefiles] || ![info exists topmodule] } {
+    puts "ERROR: Please set 'sourcefiles' and 'topmodule' variables before sourcing."
+    return
+}
 
 # quit current simulation if any
 quit -sim
