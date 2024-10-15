@@ -6,4 +6,4 @@ module fac (
 assign out = x ^ y ^ carry_in;
 assign carry_out = (x & y) | (y & carry_in) | (x & carry_in);
 
-endmodule;
+endmodule
