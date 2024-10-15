@@ -1,0 +1,24 @@
+ls
+# transcript
+# week_4
+cd week_4
+ls
+# fac_tb.v
+# fac.v
+# run.bash
+do run.bash
+# fac_tb.v
+# fac_tb
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# ** Error: fac_tb.v(1): (vlog-2163) Macro `incldue is undefined.
+# ** Error: fac_tb.v(1): near "fac_tb.v": syntax error, unexpected "STRING_LITERAL", expecting "class"
+# ** Error: invalid command name "ERROR"
+# Error in macro ./run.bash line 23
+# invalid command name "ERROR"
+#     while executing
+# "ERROR"
+#     invoked from within
+# "if [catch "eval vlog $sourcefiles"] {
+#     puts "[ERROR] Correct the compilation errors!"
+#     return
+# }"
