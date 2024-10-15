@@ -1,5 +1,5 @@
 # add all Verilog source files, separated by spaces
-set sourcefiles {fac_tb.v}
+set sourcefiles {fac_tb.sv}
 
 # set name of the top module
 set topmodule fac_tb
